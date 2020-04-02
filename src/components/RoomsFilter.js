@@ -2,7 +2,7 @@
 import React from "react";
 import { useContext } from "react";
 import { RoomContext } from "../context";
-import Title from "./Title";
+import Title from "../components/Title";
 // get all unique values
 const getUnique = (items, value) => {
   return [...new Set(items.map(item => item[value]))];
